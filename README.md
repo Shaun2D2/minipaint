@@ -13,3 +13,15 @@ Contributions are welcome!  Please take a look at issues for ideas on how to con
 | fetchAllTechniques |  returns an array of all painting techniques | Array |
 | fetchPaintById |  returns an object containing paint information | Object |
 | fetchTechniqueById |  returns an object containing technique information | Object |
+
+## Example
+
+```javascript
+import { fetchPaintById } from '@paintgist/minipaint';
+
+const paint = fetchPaintById('7c235d3a-1fc5-4753-b81c-bf8c6aed021d');
+
+console.log(paint.name);
+
+// Troll Slayer Orange
+```
