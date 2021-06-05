@@ -1,5 +1,5 @@
 {
-  "name": "minipaint",
+  "name": "@paintgist/minipaint",
   "version": "1.0.0",
   "description": "a fun package for minature painters",
   "main": "src/index.js",
