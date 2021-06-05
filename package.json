@@ -1,0 +1,41 @@
+{
+  "name": "minipaint",
+  "version": "1.0.0",
+  "description": "a fun package for minature painters",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "npx babel -d dist ./src",
+    "test": "npx jest ./test",
+    "test:watch": "npx jest ./test --watchAll --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shaun2D2/minipaint.git"
+  },
+  "keywords": [
+    "painting",
+    "hobby",
+    "warhammer"
+  ],
+  "author": "Shaun Lobsinger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shaun2D2/minipaint/issues"
+  },
+  "homepage": "https://github.com/Shaun2D2/minipaint#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "babel-jest": "^27.0.2"
+  },
+  "dependencies": {
+    "jest": "^27.0.4",
+    "uuid": "^8.3.2"
+  },
+  "jest": {
+    "transform": {
+      "\\.[jt]sx?$": "babel-jest"
+    }
+  }
+}
