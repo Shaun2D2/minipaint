@@ -1,752 +1,413 @@
-export default [
-  {
-    id: '6e098717-f15d-4b00-bd79-672c08ec4308',
-    name: 'Gauss Blaster Green',
-    hex: '84C2A9 ',
-    type: 'edge',
-  },
-  {
-    id: '8b9404fa-736b-4b3c-9ca2-ca27a20527c1',
-    name: 'Baharroth Blue',
-    hex: '78C4C7 ',
-    type: 'edge',
-  },
-  {
-    id: 'b596d8ac-83f9-4d0c-8e5e-c5bd4a08d546',
-    name: 'Dorn Yellow',
-    hex: 'E3D28C ',
-    type: 'edge',
-  },
-  {
-    id: '4aae57ad-76f7-4746-b4b1-354f630437ab',
-    name: 'Fulgrim Pink',
-    hex: 'F4AFCC',
-    type: 'edge',
-  },
-  {
-    id: '65bf99b4-71bc-4d8a-9c9e-671dce17bc04',
-    name: 'Flayed One Flesh',
-    hex: 'CBB48B ',
-    type: 'edge',
-  },
-  {
-    id: '9aee2f3f-df5f-455f-89f3-336120a11599',
-    name: 'Krieg Khaki',
-    hex: 'B7AD78 ',
-    type: 'edge',
-  },
-  {
-    id: '769b3b5e-9a65-487d-b859-b0abc4c30e1e',
-    name: 'Blue Horror',
-    hex: 'A2BAD2 ',
-    type: 'edge',
-  },
-  {
-    id: '77d046ae-233b-4429-ab71-33d749c03df7',
-    name: 'Lugganath Orange',
-    hex: 'F89E86',
-    type: 'edge',
-  },
-  {
-    id: '60a05f23-cfec-44e4-af38-1e0f3c4658e9',
-    name: 'Praxeti White',
-    hex: 'FFFFFF ',
-    type: 'dry',
-  },
-  {
-    id: '676ea359-edbb-4adf-9c7c-35aedaf04696',
-    name: 'Hexos Palesun',
-    hex: 'F1DCA3 ',
-    type: 'dry',
-  },
-  {
-    id: '25a8e529-7cb0-412e-a7ab-24a30149ffcc',
-    name: 'Kindleflame',
-    hex: 'EFB494 ',
-    type: 'dry',
-  },
-  {
-    id: '75de42c8-b863-4b0b-b0cc-52a17e0d4f0e',
-    name: 'Lucius Lilac',
-    hex: 'B69FCB',
-    type: 'dry',
-  },
-  {
-    id: '2dfcc0bb-7302-42da-9f58-667208b363ea',
-    name: 'Etherium Blue',
-    hex: 'A1B9D1 ',
-    type: 'dry',
-  },
-  {
-    id: 'bd0b4070-c445-4879-b46b-92400eee519f',
-    name: 'Skink Blue',
-    hex: '59C1CE ',
-    type: 'dry',
-  },
-  {
-    id: 'fddb3a9e-a730-408f-8dad-7309ab73d1e7',
-    name: 'Hellion Green',
-    hex: '83C3A9 ',
-    type: 'dry',
-  },
-  {
-    id: '0430a500-7c08-49f5-bfed-da623752a6de',
-    name: 'Underhive Ash',
-    hex: 'BFBD80',
-    type: 'dry',
-  },
-  {
-    id: 'c1d1e52d-860f-42fc-a502-5aa37d66abd6',
-    name: 'Eldar Flesh',
-    hex: 'EDC184 ',
-    type: 'dry',
-  },
-  {
-    id: 'd6a01870-0332-4450-a303-4d2482cfab96',
-    name: 'Tyrant Skull',
-    hex: 'C6AF8B ',
-    type: 'dry',
-  },
-  {
-    id: '00e12038-4ee6-4f14-802b-81fbca85e0ba',
-    name: 'Terminatus Stone',
-    hex: 'BDAA9B ',
-    type: 'dry',
-  },
-  {
-    id: '68c21022-35fe-4f08-b9bf-e4f9944fb31e',
-    name: 'Longbeard Grey',
-    hex: 'B4AEAE',
-    type: 'dry',
-  },
-  {
-    id: '2617b386-4539-4400-8d08-3bcf0f3ec331',
-    name: 'Changeling Pink',
-    hex: 'F4AFCE ',
-    type: 'dry',
-  },
-  {
-    id: '209558e5-f88a-4871-a305-ce1e9bfcacb1',
-    name: 'Necron Compound',
-    hex: 'B1B5B8 ',
-    type: 'dry',
-  },
-  {
-    id: 'a60e35b5-5705-4d3f-a034-6db2fa2e7fd3',
-    name: 'Golden Griffon',
-    hex: 'C6B791',
-    type: 'dry',
-  },
-  {
-    id: '32590400-ebea-4ea7-aec0-1f1952cac4f3',
-    name: 'White Scar',
-    hex: 'FFFFFF ',
-    type: 'layer',
-  },
-  {
-    id: '93c6af0a-aaaf-4f7a-9492-e0c622695c58',
-    name: 'Yriel Yellow',
-    hex: 'FFDB01 ',
-    type: 'layer',
-  },
-  {
-    id: 'ecb30c18-88eb-4ca5-bc77-2e7ff1a070ed',
-    name: 'Flash Gitz Yellow',
-    hex: 'FFF200 ',
-    type: 'layer',
-  },
-  {
-    id: '7c235d3a-1fc5-4753-b81c-bf8c6aed021d',
-    name: 'Troll Slayer Orange',
-    hex: 'F46C2E',
-    type: 'layer',
-  },
-  {
-    id: '742fd083-dba4-4db6-8e0c-a457c487a441',
-    name: 'Fire Dragon Bright',
-    hex: 'F58651 ',
-    type: 'layer',
-  },
-  {
-    id: 'edd9f35d-b6c4-4fb9-b0cc-1fd5afe5a514',
-    name: 'Evil Sunz Scarlet',
-    hex: 'C21920 ',
-    type: 'layer',
-  },
-  {
-    id: '2c9888b4-f80c-4981-850f-86853fdc35db',
-    name: 'Wild Rider Red',
-    hex: 'EB2E28 ',
-    type: 'layer',
-  },
-  {
-    id: 'afec7b1e-7311-491d-b6f0-ac2ed2c02700',
-    name: 'Wazdakka Red',
-    hex: '8C0A0C',
-    type: 'layer',
-  },
-  {
-    id: '9c1c2141-638e-4d27-885c-774bbea40baa',
-    name: 'Squig Orange',
-    hex: 'A94F44 ',
-    type: 'layer',
-  },
-  {
-    id: '75a3ac34-5893-450a-ad00-684fe1f2cb96',
-    name: 'Xereus Purple',
-    hex: '471F5E ',
-    type: 'layer',
-  },
-  {
-    id: '447f09ad-7d31-476d-903c-da1b1019c7f3',
-    name: 'Genestealer Purple',
-    hex: '7761AA ',
-    type: 'layer',
-  },
-  {
-    id: '497ddfe0-ae95-40cc-80f1-7f681ae25b72',
-    name: 'Warpfiend Grey',
-    hex: '6C6A75',
-    type: 'layer',
-  },
-  {
-    id: 'aa84d7a9-7e44-452d-8716-dbc5f10cbbee',
-    name: 'Slaanesh Grey',
-    hex: '8E8C97 ',
-    type: 'layer',
-  },
-  {
-    id: '0d5d2f9d-01ed-42a1-acd9-0179e13d2373',
-    name: 'Alaitoc Blue',
-    hex: '295788',
-    type: 'layer',
-  },
-  {
-    id: '1093819a-317c-43e7-9e13-eac3a7cf3a9a',
-    name: 'Hoeth Blue',
-    hex: '4C7FB4 ',
-    type: 'layer',
-  },
-  {
-    id: '1456327f-a9c3-41fe-b16b-f82832436118',
-    name: 'Altdorf Guard Blue',
-    hex: '1F56A8',
-    type: 'layer',
-  },
-  {
-    id: '679e99c1-8303-411d-bf64-92a2095bfd95',
-    name: 'Calgar Blue',
-    hex: '4273B8 ',
-    type: 'layer',
-  },
-  {
-    id: '9da1cd3b-615a-4f17-acc9-b6faf4239f97',
-    name: 'Teclis Blue',
-    hex: '317FC1 ',
-    type: 'layer',
-  },
-  {
-    id: '82f38041-2c35-4ef1-965a-fbcaf468161f',
-    name: 'Lothern Blue',
-    hex: '33A2CF ',
-    type: 'layer',
-  },
-  {
-    id: '9b145606-4273-41b2-aa08-7fc382397850',
-    name: 'Sotek Green',
-    hex: '0C6A74',
-    type: 'layer',
-  },
-  {
-    id: '64c988f5-8b57-4b53-a166-3206c93b1b1e',
-    name: 'Temple Guard Blue',
-    hex: '329B8D ',
-    type: 'layer',
-  },
-  {
-    id: '462b2adf-c007-4022-ad27-d6a087bc1adf',
-    name: 'Kabalite Green',
-    hex: '028D66 ',
-    type: 'layer',
-  },
-  {
-    id: '65ff40a0-2d51-4175-86d1-b6cd2d62429d',
-    name: 'Sybarite Green',
-    hex: '30A66C ',
-    type: 'layer',
-  },
-  {
-    id: '4d7da999-eb58-417c-8fb9-5b482e0d3ca8',
-    name: 'Warpstone Glow',
-    hex: null,
-    type: 'layer',
-  },
-  {
-    id: 'ee328fd3-3685-4bf0-8e56-0667c675fe94',
-    name: 'Moot Green',
-    hex: '52B246 ',
-    type: 'layer',
-  },
-  {
-    id: '38ddac15-4497-4b5b-b855-288b1e5ceb13',
-    name: 'Warboss Green',
-    hex: '3E7F5D ',
-    type: 'layer',
-  },
-  {
-    id: 'f351cfef-5c85-4f37-bf3e-4ef3a0d5d856',
-    name: 'Skarsnik Green',
-    hex: '5F936F ',
-    type: 'layer',
-  },
-  {
-    id: '4e38b08b-b3eb-4237-88b7-06ddf8a4af15',
-    name: 'Loren Forest',
-    hex: '51702D',
-    type: 'layer',
-  },
-  {
-    id: 'c00d8369-67db-40c7-ac8d-6e88b98b6926',
-    name: 'Straken Green',
-    hex: '628026',
-    type: 'layer',
-  },
-  {
-    id: '881e21bb-df6c-43c5-ba93-aaab6c1cfdef',
-    name: 'Nurgling Green',
-    hex: '849B63 ',
-    type: 'layer',
-  },
-  {
-    id: '45f94664-3f5c-419b-adec-55de5eb7ae12',
-    name: 'Elysian Green',
-    hex: '758E3A ',
-    type: 'layer',
-  },
-  {
-    id: '514157a1-7b38-4275-b93e-213e20cc7281',
-    name: 'Ogryn Camo',
-    hex: '9EA94B',
-    type: 'layer',
-  },
-  {
-    id: 'c65f27df-f2e9-43d2-af18-f66611e97c3a',
-    name: 'Ushabti Bone',
-    hex: 'BCBC80 ',
-    type: 'layer',
-  },
-  {
-    id: '8290a6db-2066-419f-84a0-d226ec7489c8',
-    name: 'Screaming Skull',
-    hex: 'D4D3A3 ',
-    type: 'layer',
-  },
-  {
-    id: 'c2d836c9-0450-46b5-8c11-7149a7543867',
-    name: 'Tallarn Sand',
-    hex: 'A67610 ',
-    type: 'layer',
-  },
-  {
-    id: '48941c50-fbb5-4992-b561-6f927231a8d5',
-    name: 'Karak Stone',
-    hex: 'BB9662',
-    type: 'layer',
-  },
-  {
-    id: '55798ac7-086d-4a05-9d08-51450a1c099b',
-    name: 'Cadian Fleshtone',
-    hex: 'C87958 ',
-    type: 'layer',
-  },
-  {
-    id: 'ff09c16d-2842-4266-a714-89aca682d962',
-    name: 'Kislev Flesh',
-    hex: 'D6A876 ',
-    type: 'layer',
-  },
-  {
-    id: '24c2a624-6f36-4323-91e6-4e8056df859d',
-    name: 'Bestigor Flesh',
-    hex: 'D28B57 ',
-    type: 'layer',
-  },
-  {
-    id: 'f3cc01be-d658-4718-815e-dbfbba16f90d',
-    name: 'Ungor Flesh',
-    hex: 'D7A767',
-    type: 'layer',
-  },
-  {
-    id: '1cfc44ef-45d3-4c40-b1a6-74c9974a42c1',
-    name: 'Skrag Brown',
-    hex: '904A0F ',
-    type: 'layer',
-  },
-  {
-    id: '2cda51ea-7851-47d0-9c36-76fc015cecee',
-    name: 'Deathclaw Brown',
-    hex: 'B36853 ',
-    type: 'layer',
-  },
-  {
-    id: 'e41293dd-5d6c-4d87-8e1b-919642aa0e05',
-    name: 'Tau Light Ochre',
-    hex: 'BF6E1D ',
-    type: 'layer',
-  },
-  {
-    id: 'e754d153-e32f-4ad8-8ae2-af0e677d4f03',
-    name: 'Balor Brown',
-    hex: '8B5910',
-    type: 'layer',
-  },
-  {
-    id: '5516bd0e-77fd-4fed-87ed-5e39fb61909c',
-    name: 'Zamesi Desert',
-    hex: 'DCA026 ',
-    type: 'layer',
-  },
-  {
-    id: '6edf3a53-8ba5-4893-be2e-642c52d593d3',
-    name: 'Doombull Brown',
-    hex: '5D000A ',
-    type: 'layer',
-  },
-  {
-    id: '9f61906d-08da-4499-a35b-5e5b31c60c73',
-    name: 'Tuskgor Fur',
-    hex: '883736',
-    type: 'layer',
-  },
-  {
-    id: 'bad3307c-323d-4820-8ab6-ac05a76cdc9f',
-    name: 'Gorthor Brown',
-    hex: '654641',
-    type: 'layer',
-  },
-  {
-    id: 'e7db476b-006e-4790-b44b-94a1c75ad6d9',
-    name: 'Baneblade Brown',
-    hex: '927F6E ',
-    type: 'layer',
-  },
-  {
-    id: '4f9f8631-a512-4128-acaf-82b04b680850',
-    name: 'Dawnstone',
-    hex: '70756E ',
-    type: 'layer',
-  },
-  {
-    id: 'd9dac02c-9562-4e33-8f1b-e212118116fb',
-    name: 'Administratum Grey',
-    hex: '949B94 ',
-    type: 'layer',
-  },
-  {
-    id: '094b2873-4525-49bf-bc65-6c0247f05719',
-    name: 'Eshin Grey',
-    hex: '4A4F53',
-    type: 'layer',
-  },
-  {
-    id: 'd4f9db6d-d30f-4e58-9705-a86f6905977b',
-    name: 'Dark Reaper',
-    hex: '3C5051 ',
-    type: 'layer',
-  },
-  {
-    id: 'fadd2aad-7494-45ae-8539-3bc1d37f9acb',
-    name: 'Thunderhawk Blue',
-    hex: '417175',
-    type: 'layer',
-  },
-  {
-    id: 'e1eab4ff-6021-46f8-9b47-b2c66626b36e',
-    name: 'Skavenblight Dinge',
-    hex: '48413B ',
-    type: 'layer',
-  },
-  {
-    id: '74eea429-e157-4dd7-b8ba-efff65cfbf40',
-    name: 'Stormvermin Fur',
-    hex: '736C66',
-    type: 'layer',
-  },
-  {
-    id: '67371bb9-faaf-4f0b-b6de-f2aa4d6ab74f',
-    name: 'Ulthuan Grey',
-    hex: 'C7E0DA ',
-    type: 'layer',
-  },
-  {
-    id: 'ac7d87d1-0776-4375-9110-b26f2c1febcd',
-    name: 'Pallid Wych Flesh',
-    hex: 'CDCEBE ',
-    type: 'layer',
-  },
-  {
-    id: '237aefa9-07e0-4150-8a35-298eaf01cef0',
-    name: 'Russ Grey',
-    hex: '547588',
-    type: 'layer',
-  },
-  {
-    id: '14255e51-3d04-4a75-bf8a-ff80537a6705',
-    name: 'Fenrisian Grey',
-    hex: '709CB7',
-    type: 'layer',
-  },
-  {
-    id: 'b28227fb-846f-43ff-852c-2aa9c254f692',
-    name: 'Pink Horror',
-    hex: '91305D ',
-    type: 'layer',
-  },
-  {
-    id: '86b99fc0-d7fc-48cb-81e4-8adeeaedf3e7',
-    name: 'Emperor’s Children',
-    hex: 'B94278 ',
-    type: 'layer',
-  },
-  {
-    id: 'f0dff0f6-08e9-4c70-8bb4-1ce6a2c6e080',
-    name: 'Ironbreaker',
-    hex: '94999D ',
-    type: 'layer',
-  },
-  {
-    id: '5fffff8d-465a-4299-b1d1-e6da29115ed5',
-    name: 'Runefang Steel',
-    hex: 'C6CBD0',
-    type: 'layer',
-  },
-  {
-    id: '78c08101-fbc5-4bc0-a404-7ffde82da633',
-    name: 'Gehenna’s Gold',
-    hex: 'D49761 ',
-    type: 'layer',
-  },
-  {
-    id: 'b7d495aa-eae4-4c5e-b0a3-d71210394198',
-    name: 'Auric Armour Gold',
-    hex: 'E9C278 ',
-    type: 'layer',
-  },
-  {
-    id: 'cb780494-1342-4c9a-bda8-5f4df4ad3db7',
-    name: 'Hashut Copper',
-    hex: 'C69169 ',
-    type: 'layer',
-  },
-  {
-    id: '2c3a7f01-ed6a-452e-9070-a9c00f52a3a6',
-    name: 'Sycorax Bronze',
-    hex: 'CBB394',
-    type: 'layer',
-  },
-  {
-    id: '20e994aa-2203-4670-afd6-7db66fb479c8',
-    name: 'Brass Scorpion',
-    hex: 'B7895F ',
-    type: 'layer',
-  },
-  {
-    id: '634a7142-05d5-426f-a568-c8af4f5e9d93',
-    name: 'Runelord Brass',
-    hex: 'BCAFA0',
-    type: 'layer',
-  },
-  {
-    id: '0bd6cb2f-6332-4fe9-8517-289a335c02e5',
-    name: 'Ceramite White',
-    hex: 'FFFFFF ',
-    type: 'layer',
-  },
-  {
-    id: 'e56beee2-8942-4157-9b11-9212b92ebaed',
-    name: 'Averland Sunset',
-    hex: 'FCB825 ',
-    type: 'layer',
-  },
-  {
-    id: '912afe7d-16e8-4484-8b6d-f87a7c7e9c9b',
-    name: 'Jokaero Orange',
-    hex: 'EE3823 ',
-    type: 'layer',
-  },
-  {
-    id: 'e0dfbbdc-f93c-402e-9c86-648caf013626',
-    name: 'Mephiston Red',
-    hex: '991115',
-    type: 'layer',
-  },
-  {
-    id: 'd045a983-484e-4a7d-8ee3-5fbf004fc8a1',
-    name: 'Khorne Red',
-    hex: '6A0002 ',
-    type: 'layer',
-  },
-  {
-    id: 'cebad40a-4713-4a97-9cd6-bd4887c57112',
-    name: 'Naggaroth Night',
-    hex: null,
-    type: 'layer',
-  },
-  {
-    id: 'af2dd814-a1da-40ac-b452-54a19aa4517a',
-    name: 'Daemonette Hide',
-    hex: '696685',
-    type: 'layer',
-  },
-  {
-    id: '75d9adf1-3010-4a6f-81fb-38ab920cbd7a',
-    name: 'Kantor Blue',
-    hex: '002051',
-    type: 'layer',
-  },
-  {
-    id: 'c4fbffa3-4ad2-48e7-897d-698b2d893fc2',
-    name: 'Macragge Blue',
-    hex: '0D407F ',
-    type: 'layer',
-  },
-  {
-    id: '6ba383e9-fe0e-4089-9eab-7940750aced9',
-    name: 'Caledor Sky',
-    hex: '396F9E ',
-    type: 'layer',
-  },
-  {
-    id: '9554bca0-1a86-4a57-ac26-9d71ee547d12',
-    name: 'Stegadon Scale Green',
-    hex: '074864 ',
-    type: 'layer',
-  },
-  {
-    id: '33570025-e74b-4b7f-afb3-08b27ec12e2f',
-    name: 'Incubi Darkness',
-    hex: '0B4849',
-    type: 'layer',
-  },
-  {
-    id: '23e75500-8374-4c11-ae3f-8540f7c0f181',
-    name: 'Caliban Green',
-    hex: '00401E ',
-    type: 'layer',
-  },
-  {
-    id: '07cf6ab4-af03-4068-8278-ba76835ceccf',
-    name: 'Waaagh! Flesh',
-    hex: '20552B ',
-    type: 'layer',
-  },
-  {
-    id: '62fae10e-4e51-4883-8c76-23ddef2ed2e1',
-    name: 'Castellan Green',
-    hex: '304921',
-    type: 'layer',
-  },
-  {
-    id: '20c955da-8036-40cd-8d64-429e59063e6d',
-    name: 'Death World Forest',
-    hex: '5D6732',
-    type: 'layer',
-  },
-  {
-    id: '5a526a9e-81d7-43ae-a54e-702e0634587a',
-    name: 'Zandri Dust',
-    hex: '9E915C ',
-    type: 'layer',
-  },
-  {
-    id: 'e78e8d5e-aa99-4781-8a9a-6c5dc1d81a91',
-    name: 'Steel Legion Drab',
-    hex: '5F5134 ',
-    type: 'layer',
-  },
-  {
-    id: 'a88d84fe-c29a-4781-88ea-b4c86986c550',
-    name: 'Bugman’s Glow',
-    hex: '845045',
-    type: 'layer',
-  },
-  {
-    id: '9f0602f0-8351-47a5-8f1a-4d1de62083c9',
-    name: 'Ratskin Flesh',
-    hex: 'AE6B4E',
-    type: 'layer',
-  },
-  {
-    id: 'b286e5cc-2175-4d4c-ac2b-51c7d62bd4e4',
-    name: 'Mournfang Brown',
-    hex: '650A09 ',
-    type: 'layer',
-  },
-  {
-    id: '114abe5d-27b6-4645-be34-770b945d5b10',
-    name: 'XV-88',
-    hex: '72481E ',
-    type: 'layer',
-  },
-  {
-    id: 'dda4773b-353a-4136-a286-0a164afd719c',
-    name: 'Rhinox Hide',
-    hex: '493335',
-    type: 'layer',
-  },
-  {
-    id: '8d963973-f2c4-4bb1-9831-abdcf4894f9a',
-    name: 'Mechanicus Standard Grey',
-    hex: '3D4B4E ',
-    type: 'layer',
-  },
-  {
-    id: 'f889a4f1-a65f-4518-8f56-1835b40e97c9',
-    name: 'Abaddon Black',
-    hex: '231F20 ',
-    type: 'layer',
-  },
-  {
-    id: '6fbb4b88-5687-4ee2-a701-4b96bedb1a4a',
-    name: 'Rakarth Flesh',
-    hex: 'A29E92',
-    type: 'layer',
-  },
-  {
-    id: '94e9426b-a1b6-431e-98ab-5cb15bd0f764',
-    name: 'The Fang',
-    hex: '436276',
-    type: 'layer',
-  },
-  {
-    id: 'e167c1e0-3355-47d8-9ef1-95ef9748d2a7',
-    name: 'Screamer Pink',
-    hex: '7C1645 ',
-    type: 'layer',
-  },
-  {
-    id: 'bc21c0c1-a89a-40e3-89f0-b950e31904b3',
-    name: 'Leadbelcher',
-    hex: '475659',
-    type: 'layer',
-  },
-  {
-    id: '3ae277bd-185b-49fa-87e1-b1339020fcaa',
-    name: 'Balthasar Gold',
-    hex: '87542F',
-    type: 'layer',
-  },
-  {
-    id: '544e7ab7-1ec2-4b90-b43d-14b5f54e8292',
-    name: 'Screaming Bell',
-    hex: 'B3562B ',
-    type: 'layer',
-  },
-  {
-    id: 'e71ea156-86a3-4886-ae83-8b65adfb8677',
-    name: 'Warplock Bronze',
-    hex: '695154',
-    type: 'layer',
-  },
-];
+module.exports = [
+  {
+    id: 'a8d52a96-ef72-4c0b-b67b-6ead93748a34', name: 'Abaddon Black', rgb: [['0', ' 0', ' 0']], metallic: false, type: 'base',
+  }, {
+    id: '27180612-9e82-4c71-97af-0c239ea2a4f6', name: 'Averland Sunset', rgb: [['251', ' 184', ' 28']], metallic: false, type: 'base',
+  }, {
+    id: 'ffa9ebdb-c041-4e3a-b2f8-2df7bc2c3b82', name: 'Balthasar Gold', rgb: [['106', ' 69', ' 48'], ['249', ' 188', ' 134']], metallic: true, type: 'base',
+  }, {
+    id: '7a44ef42-1c8e-423b-b193-81111e04545d', name: 'Barak-Nar Burgundy', rgb: [['69', ' 22', ' 54']], metallic: false, type: 'base',
+  }, {
+    id: '74fbfe3c-3087-4622-be95-1a53ee96eaa8', name: 'Bugman‘s Glow', rgb: [['128', ' 76', ' 67']], metallic: false, type: 'base',
+  }, {
+    id: '8a7e2291-47b2-4ebb-9082-d1f66b1e6ea7', name: 'Caledor Sky', rgb: [['54', ' 102', ' 153']], metallic: false, type: 'base',
+  }, {
+    id: 'f32bb4a5-d7a1-49a1-9ff5-ded279c2c74f', name: 'Caliban Green', rgb: [['0', ' 61', ' 21']], metallic: false, type: 'base',
+  }, {
+    id: '6920a9b6-648c-4dbc-b488-2e666bb243e5', name: 'Celestra Grey', rgb: [['139', ' 163', ' 163']], metallic: false, type: 'base',
+  }, {
+    id: '4093902e-c7dc-4f8e-ab0d-9e4c0ddba86e', name: 'Catachan Fleshtone', rgb: [['68', ' 43', ' 37']], metallic: false, type: 'base',
+  }, {
+    id: '47cb9c87-9949-4103-8ca6-477a5eec4bcf', name: 'Castellan Green', rgb: [['38', ' 71', ' 21']], metallic: false, type: 'base',
+  }, {
+    id: 'c4e86c6d-2287-4288-9a33-a7b60f8aa7ef', name: 'Corax White', rgb: [['255', ' 255', ' 255']], metallic: false, type: 'base',
+  }, {
+    id: '972ca785-151f-4429-9f1c-79cd3c0369a8', name: 'Corvus Black', rgb: [['23', ' 19', ' 20']], metallic: false, type: 'base',
+  }, {
+    id: '692ebc8d-e4f8-4c4a-906f-252266b5faeb', name: 'Daemonette Hide', rgb: [['101', ' 95', ' 129']], metallic: false, type: 'base',
+  }, {
+    id: '3077d54e-6f98-4d6d-a583-66fe87d3e51a', name: 'Death Guard Green', rgb: [['109', ' 119', ' 77']], metallic: false, type: 'base',
+  }, {
+    id: 'a52833cb-10b0-45c3-9f04-93983d347671', name: 'Death Korps Drab', rgb: [['61', ' 69', ' 57']], metallic: false, type: 'base',
+  }, {
+    id: '0f12455a-2a09-456a-ae59-6e16cc189eaf', name: 'Deathworld Forest', rgb: [['85', ' 98', ' 41']], metallic: false, type: 'base',
+  }, {
+    id: '9ed3f4d0-214b-444b-b29f-b51121059069', name: 'Dryad Bark', rgb: [['43', ' 42', ' 36']], metallic: false, type: 'base',
+  }, {
+    id: '314b36c9-3cc9-4a91-98ec-d2acf0fc0085', name: 'Gal Vorbak Red', rgb: [['75', ' 33', ' 60']], metallic: false, type: 'base',
+  }, {
+    id: '50b22fa2-b879-426f-b646-66f255b03b00', name: 'Grey Knights Steel', rgb: [['131', ' 147', ' 157'], ['239', ' 241', ' 243']], metallic: true, type: 'base',
+  }, {
+    id: 'c2e0ea38-210b-432c-8dcd-36993a550fef', name: 'Grey Seer', rgb: [['162', ' 165', ' 167']], metallic: false, type: 'base',
+  }, {
+    id: 'aae9ab4a-c45b-409e-aa5e-83acd6e17134', name: 'Incubi Darkness', rgb: [['8', ' 46', ' 50']], metallic: false, type: 'base',
+  }, {
+    id: '7243dd53-ae98-4a30-be36-513600ce61b2', name: 'Ionrach Skin', rgb: [['151', ' 163', ' 132']], metallic: false, type: 'base',
+  }, {
+    id: 'de4e62b9-8d0e-425f-84c3-9a0b334ea18c', name: 'Iron Hands Steel', rgb: [['121', ' 114', ' 108'], ['232', ' 229', ' 224']], metallic: true, type: 'base',
+  }, {
+    id: '8c465c58-f95d-4e57-abb0-abf3f5b6e8d6', name: 'Iron Warriors', rgb: [['76', ' 73', ' 71'], ['201', ' 200', ' 200']], metallic: true, type: 'base',
+  }, {
+    id: 'd76d5733-b86d-4c25-9c46-93ddc3e5717b', name: 'Jokaero Orange', rgb: [['237', ' 56', ' 20']], metallic: false, type: 'base',
+  }, {
+    id: '87e8cbc9-83c7-4309-a9ab-1799ded29ecf', name: 'Kantor Blue', rgb: [['2', ' 19', ' 78']], metallic: false, type: 'base',
+  }, {
+    id: '5f97e423-f623-4ff1-b42a-f836bfb3a21d', name: 'Khorne Red', rgb: [['101', ' 0', ' 1']], metallic: false, type: 'base',
+  }, {
+    id: 'b9ba3b0c-2021-4e86-8dab-53276dc739ef', name: 'Leadbelcher', rgb: [['88', ' 92', ' 94'], ['228', ' 228', ' 228']], metallic: true, type: 'base',
+  }, {
+    id: '5b23fe3c-4378-4cb0-ac30-188ee51a42b1', name: 'Lupercal Green', rgb: [['0', ' 44', ' 43']], metallic: false, type: 'base',
+  }, {
+    id: '56e3ce0b-e9f4-4e18-b79f-cb58f05062fd', name: 'Macragge Blue', rgb: [['15', ' 61', ' 124']], metallic: false, type: 'base',
+  }, {
+    id: 'cf0fcd3f-dd99-442d-9864-0c1cee8ae554', name: 'Mechanicus Standard Grey', rgb: [['57', ' 72', ' 74']], metallic: false, type: 'base',
+  }, {
+    id: 'ac1f82a7-1343-42f6-bfd7-2f697745ad92', name: 'Mephiston Red', rgb: [['150', ' 12', ' 9']], metallic: false, type: 'base',
+  }, {
+    id: '9f6e89cb-116c-4233-ab38-931165e27344', name: 'Morghast Bone', rgb: [['192', ' 169', ' 115']], metallic: false, type: 'base',
+  }, {
+    id: 'd0dd8593-9375-4988-94cd-5bb58d8aa927', name: 'Mournfang Brown', rgb: [['73', ' 15', ' 6']], metallic: false, type: 'base',
+  }, {
+    id: '42f6d338-c20c-4c04-8ecd-6f8dd154f8c6', name: 'Naggaroth Night', rgb: [['59', ' 43', ' 80']], metallic: false, type: 'base',
+  }, {
+    id: '9755426a-f023-4b3d-9860-c83ea8b7806e', name: 'Night Lords Blue', rgb: [['0', ' 43', ' 92']], metallic: false, type: 'base',
+  }, {
+    id: '81308d5f-8b7d-4429-b863-b88936216479', name: 'Nocturne Green', rgb: [['22', ' 42', ' 41']], metallic: false, type: 'base',
+  }, {
+    id: '52fa1610-c084-4da1-b519-ed3df8c1e53c', name: 'Phoenician Purple', rgb: [['68', ' 0', ' 82']], metallic: false, type: 'base',
+  }, {
+    id: '38280dd7-133d-4dfd-83fe-fa96145ff0f9', name: 'Rakarth Flesh', rgb: [['156', ' 153', ' 141']], metallic: false, type: 'base',
+  }, {
+    id: '4184056d-8892-465d-9193-2340bcc1f0ae', name: 'Ratskin Flesh', rgb: [['168', ' 102', ' 72']], metallic: false, type: 'base',
+  }, {
+    id: '4a74b64f-0dd3-4e04-a561-4e98bd1ba21f', name: 'Retributor Armour', rgb: [['200', ' 150', ' 64'], ['253', ' 247', ' 236']], metallic: true, type: 'base',
+  }, {
+    id: '54334e9e-998f-44c3-8288-0fd981440bfc', name: 'Rhinox Hide', rgb: [['70', ' 47', ' 48']], metallic: false, type: 'base',
+  }, {
+    id: 'eee64501-ff5b-4969-81d4-9c540f71b8c9', name: 'Runelord Brass', rgb: [['69', '54', '41'], ['217', '207', '195']], metallic: false, type: 'base',
+  }, {
+    id: '0c51ebd3-ecc5-49f6-aadf-dd4571cb00a3', name: 'Screamer Pink', rgb: [['122', ' 14', ' 68']], metallic: false, type: 'base',
+  }, {
+    id: '132d686f-8322-4b5e-9b3b-250ee0bf9e35', name: 'Screaming Bell', rgb: [['163', ' 94', ' 61'], ['240', ' 211', ' 167']], metallic: true, type: 'base',
+  }, {
+    id: '414d4089-fb04-4c9c-b3c2-4f1afb8970a2', name: 'Steel Legion Drab', rgb: [['88', ' 78', ' 45']], metallic: false, type: 'base',
+  }, {
+    id: '7e786c55-7c71-479d-b183-5b2f5b6f183e', name: 'Stegadon Scale Green', rgb: [['6', ' 69', ' 93']], metallic: false, type: 'base',
+  }, {
+    id: 'a8ffd1d7-19c6-4161-ac1b-3efbf4e9dcd3', name: 'The Fang', rgb: [['64', ' 91', ' 113']], metallic: false, type: 'base',
+  }, {
+    id: '83ec86ef-1135-4ba7-93f7-499c63aeabca', name: 'Thousand Sons Blue', rgb: [['0', ' 80', ' 111']], metallic: false, type: 'base',
+  }, {
+    id: '7cb1090a-ae57-4a66-b81c-919a629434b9', name: 'Waaagh! Flesh', rgb: [['11', ' 59', ' 54']], metallic: false, type: 'base',
+  }, {
+    id: '15e7a91e-53de-49f7-ae9a-a6adfc6f45b8', name: 'Warplock Bronze', rgb: [['124', ' 58', ' 40'], ['234', ' 184', ' 158']], metallic: true, type: 'base',
+  }, {
+    id: 'b4c853f5-793e-4116-8952-505fc855443f', name: 'Wraithbone', rgb: [['219', ' 209', ' 178']], metallic: false, type: 'base',
+  }, {
+    id: 'da66c7ba-5240-482b-8b6e-cb8e014662e0', name: 'XV-88', rgb: [['108', ' 72', ' 17']], metallic: false, type: 'base',
+  }, {
+    id: '26e0bbfe-715a-4e2f-8dbc-6a6a70eb3775', name: 'Zandri Dust', rgb: [['152', ' 142', ' 86']], metallic: false, type: 'base',
+  },
+  {
+    id: '6af245e3-2bed-4a6e-8d07-9307024b6e07', name: 'Administratum Grey', rgb: [['152', ' 156', ' 148']], metallic: false, type: 'layer',
+  }, {
+    id: '3d2920b5-54fb-4aa2-84d6-b30403c4b254', name: 'Ahriman Blue', rgb: [['0', ' 112', ' 138']], metallic: false, type: 'layer',
+  }, {
+    id: '7ee46c97-c0bc-4b37-91f3-854e31acd3d5', name: 'Alaitoc Blue', rgb: [['47', ' 79', ' 133']], metallic: false, type: 'layer',
+  }, {
+    id: '8d14480a-c32f-4c38-a3fb-a115049c3312', name: 'Altdorf Guard Blue', rgb: [['45', ' 70', ' 150']], metallic: false, type: 'layer',
+  }, {
+    id: '5d359ddd-55e2-4718-8422-e33fe6f04388', name: 'Auric Armour Gold', rgb: [['218', ' 143', ' 52'], ['255', ' 240', ' 192']], metallic: true, type: 'layer',
+  }, {
+    id: 'ab0742f2-fad8-463b-a1b3-ce24daccd9c2', name: 'Baharroth Blue', rgb: [['84', ' 189', ' 202']], metallic: false, type: 'layer',
+  }, {
+    id: 'b69c237e-0d2c-419c-9df2-8ecaf869a5fa', name: 'Baneblade Brown', rgb: [['143', ' 124', ' 104']], metallic: false, type: 'layer',
+  }, {
+    id: '3076b814-a3a4-4a51-aeff-e0dc4c0d5918', name: 'Balor Brown', rgb: [['135', ' 84', ' 8']], metallic: false, type: 'layer',
+  }, {
+    id: '58891eab-0c26-4a42-8a4f-9e30a0f239cd', name: 'Bestigor Flesh', rgb: [['208', ' 137', ' 81']], metallic: false, type: 'layer',
+  }, {
+    id: '16840ecc-14f7-4a32-af37-34206b8d82a3', name: 'Bloodreaver Flesh', rgb: [['106', ' 72', ' 72']], metallic: false, type: 'layer',
+  }, {
+    id: '9f8df8b6-2f72-4106-8b78-b1d38f5274b0', name: 'Blue Horror', rgb: [['158', ' 181', ' 206']], metallic: false, type: 'layer',
+  }, {
+    id: 'e00016be-13b7-4707-9221-da6c2d58e8ac', name: 'Brass Scorpion', rgb: [['111', ' 45', ' 19'], ['241', ' 178', ' 93']], metallic: true, type: 'layer',
+  }, {
+    id: 'c8ac669c-ea8e-4a9c-93a5-d7c508af08c1', name: 'Cadian Fleshtone', rgb: [['196', ' 118', ' 82']], metallic: false, type: 'layer',
+  }, {
+    id: 'e57c523a-9947-4d7c-9b93-e0f2b6e94f03', name: 'Calgar Blue', rgb: [['42', ' 73', ' 127']], metallic: false, type: 'layer',
+  }, {
+    id: 'd704980b-6f22-4339-8c4f-1fb4977b3983', name: 'Castellax Bronze', rgb: [['127', ' 62', ' 32'], ['245', ' 223', ' 195']], metallic: true, type: 'layer',
+  }, {
+    id: 'e2d73794-1ed6-4092-b352-fe6046452634', name: 'Canoptek Alloy', rgb: [['168', ' 144', ' 138']], metallic: false, type: 'layer',
+  }, {
+    id: 'd8f18494-41b6-440a-9cdc-b8f3fba7b65b', name: 'Dark Reaper', rgb: [['53', ' 77', ' 76']], metallic: false, type: 'layer',
+  }, {
+    id: '9589ad92-9df2-4516-8812-8f66b185e049', name: 'Dawnstone', rgb: [['105', ' 112', ' 104']], metallic: false, type: 'layer',
+  }, {
+    id: 'c5f0c0d6-76f4-4786-848b-cdc8e9f53d30', name: 'Deathclaw Brown', rgb: [['175', ' 99', ' 79']], metallic: false, type: 'layer',
+  }, {
+    id: '1209e8b3-9b3f-4d27-8583-9ea3934c83eb', name: 'Dechala Lilac', rgb: [['181', ' 152', ' 201']], metallic: false, type: 'layer',
+  }, {
+    id: '8bdccc90-8bc8-4734-86ea-de6dc67aa5d3', name: 'Deepkin Flesh', rgb: [['169', ' 183', ' 159']], metallic: false, type: 'layer',
+  }, {
+    id: 'cf85e4a1-e000-4fa8-9fb4-4413b0b5c888', name: 'Doombull Brown', rgb: [['87', ' 0', ' 3']], metallic: false, type: 'layer',
+  }, {
+    id: 'f7ab0798-9188-42de-add2-4b342c6be1ac', name: 'Dorn Yellow', rgb: [['255', ' 245', ' 90']], metallic: false, type: 'layer',
+  }, {
+    id: 'bd44be57-bb4e-42ec-a36d-c46cae404fb9', name: 'Elysian Green', rgb: [['107', ' 140', ' 55']], metallic: false, type: 'layer',
+  }, {
+    id: '87918a1e-11e2-4c90-ae88-a80db6170e9d', name: "Emperor's Children", rgb: [['183', ' 64', ' 115']], metallic: false, type: 'layer',
+  }, {
+    id: 'f8011d35-c86d-4bac-a8e0-5fcf44ecaeb3', name: 'Eshin Grey', rgb: [['72', ' 75', ' 78']], metallic: false, type: 'layer',
+  }, {
+    id: 'a52f892e-9ca9-485b-a94e-2cd0e15815a0', name: 'Evil Sunz Scarlet', rgb: [['192', ' 20', ' 17']], metallic: false, type: 'layer',
+  }, {
+    id: '83e11a38-80fb-49ae-8c71-90cb93ee71f2', name: 'Fenrisian Grey', rgb: [['109', ' 148', ' 179']], metallic: false, type: 'layer',
+  }, {
+    id: '3b898373-7e0e-4fc9-aa98-bbbb22b51a47', name: 'Fire Dragon Bright', rgb: [['244', ' 135', ' 78']], metallic: false, type: 'layer',
+  }, {
+    id: 'f53ce071-65be-4d10-8904-785fb76c43e2', name: 'Flash Gitz Yellow', rgb: [['255', ' 243', ' 0']], metallic: false, type: 'layer',
+  }, {
+    id: '7f3e98fd-0491-4059-94ec-88ddbf55e6b5', name: 'Flayed One Flesh', rgb: [['238', ' 196', ' 131']], metallic: false, type: 'layer',
+  }, {
+    id: 'e9a80a17-4205-4423-a7d0-f35418923abb', name: 'Fulgrim Pink', rgb: [['243', ' 171', ' 202']], metallic: false, type: 'layer',
+  }, {
+    id: 'd6b0b304-5128-4a70-9953-733d84e8da1b', name: 'Fulgurite Copper', rgb: [['158', ' 87', ' 41'], ['229', ' 212', ' 197']], metallic: true, type: 'layer',
+  }, {
+    id: 'b9b9edce-0f77-420c-93ca-c827f1b2d6d9', name: 'Gauss Blaster Green', rgb: [['127', ' 193', ' 165']], metallic: false, type: 'layer',
+  }, {
+    id: '6024af4a-be44-46b8-918f-6b3fa3f2f783', name: "Gehenna's Gold", rgb: [['159', ' 71', ' 16'], ['246', ' 193', ' 46']], metallic: true, type: 'layer',
+  }, {
+    id: 'badecb37-04e4-4d63-a17f-763558f0c9a4', name: 'Genestealer Purple', rgb: [['118', ' 88', ' 165']], metallic: false, type: 'layer',
+  }, {
+    id: '03e47146-7602-444d-b805-16c0a02aa697', name: 'Gorthor Brown', rgb: [['95', ' 70', ' 63']], metallic: false, type: 'layer',
+  }, {
+    id: '373952af-f217-4073-955c-f6d373d477c2', name: 'Hashut Copper', rgb: [['136', ' 89', ' 57'], ['253', ' 205', ' 136']], metallic: true, type: 'layer',
+  }, {
+    id: '6ed9bce6-07ea-4146-aea2-1250ef07da91', name: 'Hoeth Blue', rgb: [['76', ' 120', ' 175']], metallic: false, type: 'layer',
+  }, {
+    id: 'd68e5834-1f40-4c50-bcb9-995b7ca08f77', name: 'Ironbreaker', rgb: [['97', ' 102', ' 103'], ['236', ' 237', ' 237']], metallic: true, type: 'layer',
+  }, {
+    id: 'ebd28d23-c738-443c-90ae-0d4e01f3bf94', name: 'Kabalite Green', rgb: [['0', ' 137', ' 98']], metallic: false, type: 'layer',
+  }, {
+    id: 'e217b71e-5b77-4b7f-90d6-008074d7a91e', name: 'Kakophoni Purple', rgb: [['136', ' 105', ' 174']], metallic: false, type: 'layer',
+  }, {
+    id: '01e9f5c8-1b32-4552-b645-75c1335a7c41', name: 'Karak Stone', rgb: [['183', ' 148', ' 92']], metallic: false, type: 'layer',
+  }, {
+    id: '5aab43bd-2776-4d86-9fb8-3a64b7c383eb', name: 'Kislev Flesh', rgb: [['209', ' 165', ' 112']], metallic: false, type: 'layer',
+  }, {
+    id: '48e423ec-03a6-4011-8dfe-25c13a20694f', name: 'Knight-Questor Flesh', rgb: [['153', ' 101', ' 99']], metallic: false, type: 'layer',
+  }, {
+    id: 'ea44a54a-b351-43c2-a599-ab7f60dea801', name: 'Krieg Khaki', rgb: [['188', ' 187', ' 126']], metallic: false, type: 'layer',
+  }, {
+    id: '056ae058-1bcc-45ee-bca7-0a53a242680e', name: 'Liberator Gold', rgb: [['186', ' 145', ' 79'], ['253', ' 251', ' 248']], metallic: true, type: 'layer',
+  }, {
+    id: 'e892d47c-443c-40cd-a326-1ccd7c357cdf', name: 'Loren Forest', rgb: [['72', ' 108', ' 37']], metallic: false, type: 'layer',
+  }, {
+    id: 'c45cca35-84f3-4342-834c-589d1aebc865', name: 'Lothern Blue', rgb: [['44', ' 155', ' 204']], metallic: false, type: 'layer',
+  }, {
+    id: '743b92b0-b806-41a9-9596-d7753e21eeb9', name: 'Lugganath Orange', rgb: [['246', ' 155', ' 130']], metallic: false, type: 'layer',
+  }, {
+    id: 'be0b2d8a-7907-4bec-8bb6-a34d95678fd0', name: 'Moot Green', rgb: [['61', ' 175', ' 68']], metallic: false, type: 'layer',
+  }, {
+    id: 'e4234950-1abb-4a69-9fac-73f6f155c07b', name: 'Nurgling Green', rgb: [['126', ' 151', ' 94']], metallic: false, type: 'layer',
+  }, {
+    id: 'd134e41f-6aaf-443d-8ae7-16c7c2c6cc53', name: 'Ogryn Camo', rgb: [['150', ' 166', ' 72']], metallic: false, type: 'layer',
+  }, {
+    id: 'ac603cc1-b5c6-419c-99a9-0f433a14132a', name: 'Pallid Wych Flesh', rgb: [['202', ' 204', ' 187']], metallic: false, type: 'layer',
+  }, {
+    id: 'd05fea69-54b7-4894-b26f-dd07a9b0b319', name: 'Phalanx Yellow', rgb: [['255', ' 226', ' 0']], metallic: false, type: 'layer',
+  }, {
+    id: '90c817bd-c688-4229-84f4-3ed5bc4ed6d0', name: 'Pink Horror', rgb: [['142', ' 39', ' 87']], metallic: false, type: 'layer',
+  }, {
+    id: 'cd814518-41eb-4153-bc70-ac3cd58458d9', name: 'Runefang Steel', rgb: [['158', ' 165', ' 169'], ['239', ' 239', ' 240']], metallic: true, type: 'layer',
+  }, {
+    id: '50526243-425a-4021-b290-5f9540a1230c', name: 'Runelord Brass', rgb: [['87', ' 71', ' 54'], ['217', ' 207', ' 195']], metallic: true, type: 'layer',
+  }, {
+    id: '7483d1e8-0103-49fa-bd60-f8634018bdf8', name: 'Russ Grey', rgb: [['80', ' 112', ' 133']], metallic: false, type: 'layer',
+  }, {
+    id: 'd648eeda-9bbb-4fee-a3ba-ce2fe9736ccf', name: 'Screaming Skull', rgb: [['185', ' 192', ' 153']], metallic: false, type: 'layer',
+  }, {
+    id: '204b2ebc-88cc-42e2-97d7-45855d4f80fb', name: 'Skarsnik Green', rgb: [['88', ' 143', ' 107']], metallic: false, type: 'layer',
+  }, {
+    id: 'b22e2a18-5741-4e29-86cd-1f06f72f8917', name: 'Skavenblight Dinge', rgb: [['69', ' 65', ' 59']], metallic: false, type: 'layer',
+  }, {
+    id: 'efe310dd-e5d2-4eb8-ae25-7d7de12e45ee', name: 'Skrag Brown', rgb: [['139', ' 72', ' 6']], metallic: false, type: 'layer',
+  }, {
+    id: 'eaf21ad9-6056-4ddf-98e4-2f61fda67a65', name: 'Skullcrusher Brass', rgb: [['222', ' 170', ' 87'], ['253', ' 249', ' 240']], metallic: true, type: 'layer',
+  }, {
+    id: '173804ad-aaaf-4abc-a8a2-9ba2e0e2d274', name: 'Slaanesh Grey', rgb: [['139', ' 136', ' 147']], metallic: false, type: 'layer',
+  }, {
+    id: 'a3f73721-040a-4568-bcc2-9b38a4e0dda7', name: 'Sons of Horus Green', rgb: [['0', ' 84', ' 94']], metallic: false, type: 'layer',
+  }, {
+    id: '7958e64f-8be8-43c3-95d7-dbfb27d2b080', name: 'Sotek Green', rgb: [['11', ' 99', ' 113']], metallic: false, type: 'layer',
+  }, {
+    id: 'a25aa587-11d9-45b6-834e-e7e924693545', name: 'Squig Orange', rgb: [['167', ' 77', ' 66']], metallic: false, type: 'layer',
+  }, {
+    id: '3f99db93-c2f9-46a5-8754-738b7b86007e', name: 'Stormhost Silver', rgb: [['191', ' 196', ' 198'], ['242', ' 242', ' 243']], metallic: true, type: 'layer',
+  }, {
+    id: '011401e4-7e79-4a6b-8be4-aaedc776ab64', name: 'Stormvermin Fur', rgb: [['109', ' 101', ' 95']], metallic: false, type: 'layer',
+  }, {
+    id: '1c5a9b68-99a5-4ea1-bcea-a18f21369021', name: 'Straken Green', rgb: [['89', ' 127', ' 28']], metallic: false, type: 'layer',
+  }, {
+    id: 'eeacf6ea-1664-46af-97a4-029a12f1b24f', name: 'Sybarite Green', rgb: [['23', ' 161', ' 102']], metallic: false, type: 'layer',
+  }, {
+    id: 'bcd67fb0-9c41-4eeb-8581-18d2877f1c3a', name: 'Sycorax Bronze', rgb: [['147', ' 112', ' 90'], ['246', ' 243', ' 239']], metallic: true, type: 'layer',
+  }, {
+    id: '82c51f96-3f00-4e04-91d2-a9040d3125f5', name: 'Tallarn Sand', rgb: [['160', ' 116', ' 9']], metallic: false, type: 'layer',
+  }, {
+    id: '875a0538-b5dd-4bef-9d3d-f97eaada9679', name: 'Tau Light Ochre', rgb: [['188', ' 107', ' 16']], metallic: false, type: 'layer',
+  }, {
+    id: '517f6d98-9ece-4a78-8d0f-5d5eb7683704', name: 'Teclis Blue', rgb: [['56', ' 119', ' 191']], metallic: false, type: 'layer',
+  }, {
+    id: '9020318b-f9aa-4cea-9dff-dbcb9ad530da', name: 'Temple Guard Blue', rgb: [['35', ' 148', ' 137']], metallic: false, type: 'layer',
+  }, {
+    id: '7e271a1e-2275-4a8a-82ba-ec728d93ad52', name: 'Thunderhawk Blue', rgb: [['57', ' 106', ' 112']], metallic: false, type: 'layer',
+  }, {
+    id: '8cf5849c-dbeb-4d3d-89ac-61fe1c79500f', name: 'Troll Slayer Orange', rgb: [['241', ' 108', ' 35']], metallic: false, type: 'layer',
+  }, {
+    id: 'dec1dd2d-d650-482f-877e-7e881d1a07f8', name: 'Tuskgor Fur', rgb: [['134', ' 50', ' 49']], metallic: false, type: 'layer',
+  }, {
+    id: '91f2952e-fba0-414d-8244-77060621ae1f', name: 'Ulthuan Grey', rgb: [['196', ' 221', ' 213']], metallic: false, type: 'layer',
+  }, {
+    id: 'c864219c-335b-4e88-94f7-8d23d9809b4f', name: 'Ungor Flesh', rgb: [['209', ' 165', ' 96']], metallic: false, type: 'layer',
+  }, {
+    id: '57f1999a-9f00-4768-9d6b-4cbe668159d1', name: 'Ushabti Bone', rgb: [['171', ' 161', ' 115']], metallic: false, type: 'layer',
+  }, {
+    id: '8e856e8b-a838-4f02-b843-cf69eb4fd0e3', name: 'Vulkan Green', rgb: [['34', ' 60', ' 46']], metallic: false, type: 'layer',
+  }, {
+    id: '1a4089ce-3412-4b2a-bf0a-fd9d3443b5ba', name: 'Warboss Green', rgb: [['49', ' 126', ' 87']], metallic: false, type: 'layer',
+  }, {
+    id: '906902ca-1027-4c36-91b9-aafa9d154cb9', name: 'Warpfiend Grey', rgb: [['102', ' 101', ' 110']], metallic: false, type: 'layer',
+  }, {
+    id: '87f76f8a-a9b6-4426-8aae-d18d0ca38d16', name: 'Word Bearers Red', rgb: [['98', ' 1', ' 4']], metallic: false, type: 'layer',
+  }, {
+    id: 'e283c262-891e-4ee2-b51c-c98a3ae9e656', name: 'Wild Rider Red', rgb: [['232', ' 46', ' 27']], metallic: false, type: 'layer',
+  }, {
+    id: 'defa5818-111f-4f12-aa78-8b8ba53c7943', name: 'White Scar', rgb: [['255', ' 255', ' 255']], metallic: false, type: 'layer',
+  }, {
+    id: '32a75994-b440-4c18-816e-b7c8d03124a4', name: 'Wazdakka Red', rgb: [['136', ' 8', ' 4']], metallic: false, type: 'layer',
+  }, {
+    id: '1bcd1b52-654d-45fe-8c39-8ec092fa01f9', name: 'Warpstone Glow', rgb: [['15', ' 112', ' 42']], metallic: false, type: 'layer',
+  }, {
+    id: 'f57f1aad-6247-4127-966c-04bc2b589bda', name: 'Xereus Purple', rgb: [['71', ' 18', ' 90']], metallic: false, type: 'layer',
+  }, {
+    id: '6a593f95-3596-4c31-8e73-462e82586ac5', name: 'Yriel Yellow', rgb: [['255', ' 217', ' 0']], metallic: false, type: 'layer',
+  }, {
+    id: 'fb6bf1ce-f5c2-4abb-85f9-373a457a7d56', name: 'Zamesi Desert', rgb: [['216', ' 157', ' 27']], metallic: false, type: 'layer',
+  }, {
+    id: 'ccf68f49-80ca-4802-b470-9c6f0cde6512', name: 'Astorath Red', rgb: [['169', ' 49', ' 30']], metallic: false, type: 'dry',
+  }, {
+    id: '30dc8c24-eb9b-4296-9aff-4e87ae11614e', name: 'Changeling Pink', rgb: [['243', ' 171', ' 202']], metallic: false, type: 'dry',
+  }, {
+    id: 'fc9b979c-190f-40b6-b514-644cf3b6953a', name: 'Chronus Blue', rgb: [['75', ' 144', ' 207']], metallic: false, type: 'dry',
+  }, {
+    id: '67cbdd43-67c0-4572-bf42-63e8a21c6cbe', name: 'Dawnstone', rgb: [['105', ' 112', ' 104']], metallic: false, type: 'dry',
+  }, {
+    id: '4bdbc7e1-6ab5-48a6-b0ee-9549173a5533', name: 'Eldar Flesh', rgb: [['232', ' 192', ' 127']], metallic: false, type: 'dry',
+  }, {
+    id: '8150e6a5-287e-4b8c-a195-0a1be16fbfba', name: 'Etherium Blue', rgb: [['158', ' 181', ' 206']], metallic: false, type: 'dry',
+  }, {
+    id: 'feed0f48-2fa1-4333-be8b-26da4a476f7d', name: 'Golden Griffon', rgb: [['190', ' 149', ' 82'], ['251', ' 246', ' 238']], metallic: true, type: 'dry',
+  }, {
+    id: '2ab839f5-42fd-4a00-9394-69215a24e91a', name: 'Golgfag Brown', rgb: [['143', ' 80', ' 42']], metallic: false, type: 'dry',
+  }, {
+    id: '43c68b20-f0d6-4d4d-95b3-fd5bf0104aec', name: 'Hellion Green', rgb: [['127', ' 193', ' 165']], metallic: false, type: 'dry',
+  }, {
+    id: 'c1bd0129-06e4-4152-a578-5018af21ebe3', name: 'Hexos Palesun', rgb: [['255', ' 245', ' 90']], metallic: false, type: 'dry',
+  }, {
+    id: 'cb65ab01-86ef-4db9-b349-cceed3b0a11a', name: 'Hoeth Blue', rgb: [['76', ' 120', ' 175']], metallic: false, type: 'dry',
+  }, {
+    id: '5c84e621-fb4f-4cdb-83f3-2aaa90b21421', name: 'Imrik Blue', rgb: [['32', ' 138', ' 191']], metallic: false, type: 'dry',
+  }, {
+    id: '83c72ffa-1876-4dfd-a466-f6764866c5d4', name: 'Kindleflame', rgb: [['246', ' 156', ' 130']], metallic: false, type: 'dry',
+  }, {
+    id: '2154c19d-883d-4232-ba7a-cf52a14f6a08', name: 'Longbeard Grey', rgb: [['219', ' 220', ' 198']], metallic: false, type: 'dry',
+  }, {
+    id: '1e7bcf07-29d6-4a34-8df2-9b796f65edc4', name: 'Lucius Lilac', rgb: [['181', ' 152', ' 201']], metallic: false, type: 'dry',
+  }, {
+    id: '48770fc3-fbb3-4100-a524-82a4f820d384', name: 'Necron Compound', rgb: [['193', ' 197', ' 200'], ['249', ' 249', ' 249']], metallic: true, type: 'dry',
+  }, {
+    id: '68681da9-05cc-457d-87ea-3d2cb6b65620', name: 'Niblet Green', rgb: [['55', ' 140', ' 53']], metallic: false, type: 'dry',
+  }, {
+    id: 'cdcb44cd-eea5-4657-b984-524aef695eb3', name: 'Nurgling Green', rgb: [['126', ' 151', ' 94']], metallic: false, type: 'dry',
+  }, {
+    id: 'a08ece58-ef5d-4ab0-8548-7ac0db7adacd', name: 'Praxeti White', rgb: [['255', ' 255', ' 255']], metallic: false, type: 'dry',
+  }, {
+    id: '5e7cc02b-3e8f-4144-9ea4-d06ce9ed0f22', name: 'Ryza Rust', rgb: [['241', ' 108', ' 35']], metallic: false, type: 'dry',
+  }, {
+    id: 'ff0e2c6e-12f8-40b9-b156-48fbc88f3059', name: 'Sigmarite', rgb: [['204', ' 152', ' 71'], ['242', ' 198', ' 111']], metallic: true, type: 'dry',
+  }, {
+    id: 'e5b68624-5241-481e-9cd6-ee5d9dad45c4', name: 'Skink Blue', rgb: [['84', ' 189', ' 202']], metallic: false, type: 'dry',
+  }, {
+    id: 'd602c1b8-81e4-4495-8056-56179b387f63', name: 'Slaanesh Grey', rgb: [['139', ' 136', ' 147']], metallic: false, type: 'dry',
+  }, {
+    id: 'f6685485-aa78-4ddd-ac40-369f7ce5ca7a', name: 'Stormfang', rgb: [['90', ' 127', ' 163']], metallic: false, type: 'dry',
+  }, {
+    id: '7048e339-49e5-49e4-bc3e-19bd65685c9b', name: 'Sylvaneth Bark', rgb: [['78', ' 72', ' 59']], metallic: false, type: 'dry',
+  }, {
+    id: 'f970166a-058d-4e60-a5f6-6a72ccf21de1', name: 'Terminatus Stone', rgb: [['200', ' 183', ' 157']], metallic: false, type: 'dry',
+  }, {
+    id: 'ccb46ec1-7d9a-4b56-9e0e-6b8b9df7a0ed', name: 'Thunderhawk Blue', rgb: [['57', ' 106', ' 112']], metallic: false, type: 'dry',
+  }, {
+    id: '4a3d1fb4-740e-406f-8048-c5fe4e253270', name: 'Tyrant Skull', rgb: [['200', ' 196', ' 131']], metallic: false, type: 'dry',
+  }, {
+    id: '14b51ff2-5718-4dcd-b0aa-ecbdf724883e', name: 'Underhive Ash', rgb: [['188', ' 187', ' 126']], metallic: false, type: 'dry',
+  }, {
+    id: '38aa64f7-df2b-4654-be66-9e97b447208d', name: 'Verminlord Hide', rgb: [['126', ' 51', ' 49']], metallic: false, type: 'dry',
+  }, {
+    id: 'd76adf34-e59b-496e-bef0-cf965c05e842', name: 'Wrack White', rgb: [['211', ' 208', ' 207']], metallic: false, type: 'dry',
+  }, {
+    id: '0f89eac1-3728-4a6e-916a-2cd48d0c2c75', name: 'Agrellan Earth', rgb: [['179', ' 158', ' 128']], metallic: false, type: 'technical',
+  }, {
+    id: 'a2cc1d0f-d455-435c-bfe6-09a100af55bf', name: 'Agrellan Badland', rgb: [['179', ' 158', ' 128']], metallic: false, type: 'technical',
+  }, {
+    id: '3bff25fb-1645-45fe-afcf-aa05538b1094', name: 'Ardcoat', rgb: [['255', ' 255', ' 255']], metallic: false, type: 'technical',
+  }, {
+    id: '6eca4682-39aa-45ef-a370-3ad69e98fa0a', name: 'Armageddon Dunes', rgb: [['232', ' 211', ' 111']], metallic: false, type: 'technical',
+  }, {
+    id: 'e584a44e-fa1b-4641-94e9-88c36d2910cd', name: 'Armageddon Dust', rgb: [['232', ' 211', ' 111']], metallic: false, type: 'technical',
+  }, {
+    id: '53b649b5-64ff-4818-b1c0-8f6ff76f112d', name: 'Astrogranite Debris', rgb: [['157', ' 157', ' 157']], metallic: false, type: 'technical',
+  }, {
+    id: 'a7617770-c40c-4d80-8561-d8400dcc11dd', name: 'Astrogranite', rgb: [['157', ' 157', ' 157']], metallic: false, type: 'technical',
+  }, {
+    id: '05770477-6848-49eb-8d6b-345cddd6010d', name: 'Blood for the Blood God', rgb: [['158', ' 99', ' 102'], ['96', ' 0', ' 5'], ['96', ' 0', ' 5']], metallic: false, type: 'technical',
+  }, {
+    id: '9fe54acf-faed-48a2-91e7-c590225a8139', name: 'Contrast Medium', rgb: [['255', ' 255', ' 255']], metallic: false, type: 'technical',
+  }, {
+    id: 'e489cce0-95a1-4e85-8f67-1a741768bc8f', name: 'Hexwraith Flame', rgb: [['0', ' 162', ' 55']], metallic: false, type: 'technical',
+  }, {
+    id: '88e25c3c-37ff-4d88-b453-b786c91f3471', name: 'Lahmian Medium', rgb: [['255', ' 255', ' 255']], metallic: false, type: 'technical',
+  }, {
+    id: '036717db-c2c0-4e27-9224-ca46f33a0b1f', name: 'Martian Ironcrust', rgb: [['207', ' 112', ' 93']], metallic: false, type: 'technical',
+  }, {
+    id: '12ce0586-8e00-4eac-a4b6-92fb1a770da0', name: 'Martian Ironearth', rgb: [['207', ' 112', ' 93']], metallic: false, type: 'technical',
+  }, {
+    id: '525c0fa8-617b-487b-8d28-71a0a3a8c08c', name: 'Mordant Earth', rgb: [['23', ' 19', ' 20']], metallic: false, type: 'technical',
+  }, {
+    id: '5aea07c8-a497-4f2a-9f94-9dda4011d084', name: 'Nighthaunt Gloom', rgb: [['76', ' 131', ' 138']], metallic: false, type: 'technical',
+  }, {
+    id: '4d8918f3-c427-4924-8137-b06ef644ddcf', name: 'Nihilakh Oxide', rgb: [['102', ' 179', ' 154']], metallic: false, type: 'technical',
+  }, {
+    id: '3bb2b46c-95e3-4a21-aaf5-7bef9b2447c7', name: 'Nurgles Rot', rgb: [['157', ' 139', ' 22']], metallic: false, type: 'technical',
+  }, {
+    id: '474e3343-5027-4643-b461-ecf651960396', name: 'Soulstone Blue', rgb: [['98', ' 110', ' 143'], ['1', ' 21', ' 75'], ['1', ' 21', ' 75']], metallic: false, type: 'technical',
+  }, {
+    id: '391d2ca5-784d-421e-87b0-43282bcceca4', name: 'Spiritstone Red', rgb: [['174', ' 110', ' 100'], ['124', ' 17', ' 0'], ['124', ' 17', ' 0']], metallic: false, type: 'technical',
+  }, {
+    id: '101d3228-4da7-4d5a-ae3a-69c56e53c36c', name: 'Stirland Battlemire', rgb: [['112', ' 73', ' 13']], metallic: false, type: 'technical',
+  }, {
+    id: '2b275c72-ef4a-45a6-b33f-b2aa4871cc63', name: 'Stirland Mud', rgb: [['112', ' 73', ' 13']], metallic: false, type: 'technical',
+  }, {
+    id: 'fbca66f1-9934-42fd-a5cc-f453f0bfc95f', name: 'Storm Shield', rgb: [['255', ' 255', ' 255']], metallic: false, type: 'technical',
+  }, {
+    id: '47b503d7-d342-4b8f-b20d-66591e197c51', name: 'Tesseract Glow', rgb: [['73', '173', '51']], metallic: false, type: 'technical',
+  }, {
+    id: '0357cf26-0311-4fc5-a6f2-d20ba808752c', name: 'Typhus Corrosion', rgb: [['55', ' 58', ' 34']], metallic: false, type: 'technical',
+  }, {
+    id: 'cf6c34c8-bdee-4564-8cbc-b88adbcb574b', name: 'Valhallan Blizzard', rgb: [['225', ' 225', ' 225']], metallic: false, type: 'technical',
+  }, {
+    id: 'd0b880a1-a9b4-47fb-a16b-8d077948cc9b', name: 'Waystone Green', rgb: [['102', ' 136', ' 120'], ['0', ' 56', ' 31'], ['0', ' 56', ' 31']], metallic: false, type: 'technical',
+  }];
